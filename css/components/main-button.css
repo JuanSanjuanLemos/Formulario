@@ -1,0 +1,13 @@
+.main-button{
+    height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(28, 4, 136);
+}
+
+.main-button:hover{
+    transform: scale(1.02);
+    transition: 100ms linear;
+}

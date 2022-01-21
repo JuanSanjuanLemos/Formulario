@@ -1,0 +1,11 @@
+.main-select{
+    height: 4rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border-color: transparent;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    font-family: 'Poppins', sans-serif;
+    color: gray;
+    margin-bottom: 2.5rem;
+}
