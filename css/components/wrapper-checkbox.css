@@ -1,3 +1,8 @@
 .wrapper-checkbox{
     margin-bottom: 2rem;
 }
+
+.wrapper-checkbox .-checkbox{
+    height: 1.8rem;
+    width: 1.8rem;
+}
