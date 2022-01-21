@@ -38,25 +38,25 @@
         <input type="text" id="name" class="main-input" required placeholder="Digite seu nome">
 
         <label class="main-text" for="email">Email</label>
-        <input type="emai" id="email" class="main-input" required placeholder="Digite seu email">
+        <input type="email" id="email" class="main-input" required placeholder="Digite seu email">
 
         <label class="main-text" for="age">Idade(opcional)</label>
         <input type="number" id="age" class="main-input" placeholder="Idade">
 
         <label class="main-text" for="current-role">Qual sua função na instituição?</label>
         <select name="current-role" id="current-role" class="main-select" required>
-            <option class="main-option" disabled selected>Selecione uma função</option>
-            <option class="main-option">Aluno</option>
-            <option class="main-option">Professor</option>
-            <option class="main-option">Cordenador</option>
-            <option class="main-option">Outra</option>
+            <option value="" class="main-option" disabled selected>Selecione uma função</option>
+            <option value="Student" class="main-option">Aluno</option>
+            <option value="Teacher" class="main-option">Professor</option>
+            <option value="Cordinator" class="main-option">Coordenador</option>
+            <option value="Other" class="main-option">Outra</option>
         </select>
 
         <label class="main-text" for="recommend">Qual é a chance de você recomendar o IFNMG para outra pessoa?</label>
         <div class="wrapper-radio">
             <div>
-                <input name="recommend" type="radio" id="Definitely" class="-radio">
-                <label class="main-text" for="Definitely" class="main-label">Com certeza</label>
+                <input name="recommend" type="radio" id="Definitely" class="-radio" checked>
+                <label class="main-text" for="Definitely" class="main-label" >Com certeza</label>
             </div>
             <div>
                 <input name="recommend" type="radio"  id="Maybe" class="-radio">
@@ -70,13 +70,13 @@
 
         <label for="favorite-feature" class="main-text">Qual é o seu Campus?</label>
         <select name="favorite-feature" id="favorite-feature" class="main-select" required>
-            <option class="main-option" disabled selected>Selecione uma opção</option>
-            <option class="main-option">Almenara</option>
-            <option class="main-option">Araçuaí</option>
-            <option class="main-option">Janúaria</option>
-            <option class="main-option">Montes Claros</option>
-            <option class="main-option">Pirapora</option>
-            <option class="main-option">Salinas</option>
+            <option value="Campus" class="main-option" disabled selected>Selecione uma opção</option>
+            <option value="Campus" class="main-option">Almenara</option>
+            <option value="Campus" class="main-option">Araçuaí</option>
+            <option value="Campus" class="main-option">Janúaria</option>
+            <option value="Campus" class="main-option">Montes Claros</option>
+            <option value="Campus" class="main-option">Pirapora</option>
+            <option value="Campus" class="main-option">Salinas</option>
         </select>
 
         <label class="main-text" for="">Quais aspectos do IFNMG você julga importante?</label>
