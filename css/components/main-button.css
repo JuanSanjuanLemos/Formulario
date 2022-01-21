@@ -11,4 +11,5 @@
 .main-button:hover{
     transform: scale(1.02);
     transition: 100ms linear;
+    cursor: pointer;
 }
