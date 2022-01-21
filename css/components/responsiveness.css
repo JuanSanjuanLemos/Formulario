@@ -2,14 +2,25 @@ html{
     font-size: 10px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 810px) {
     form.main-form{
         width: 100%;
         box-sizing: border-box;
+        margin: 0;
         padding: 2rem;
     }
     body.main-body{
-        margin-top: 0;
-        margin-bottom: 0;
+        margin: 0;
+        
+    }
+    legend.main-title{
+        font-size: 3rem;
+    }
+}
+
+
+@media screen and (max-width:320px) {
+    legend.main-title{
+        font-size: 2.5rem;
     }
 }
