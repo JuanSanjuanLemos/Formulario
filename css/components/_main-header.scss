@@ -1,0 +1,18 @@
+@mixin  text-format($isMain:true) {
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    
+    @if $isMain{
+        line-height: 1.4;
+    }
+}
+
+
+.main-header{
+    max-height: 8rem;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    
+    margin-bottom: 6%;
+}

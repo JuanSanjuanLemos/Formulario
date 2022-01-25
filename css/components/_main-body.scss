@@ -1,0 +1,10 @@
+$primary-color:rgba(42, 136, 30, 0.8);
+$secundary-color:rgba(138, 218, 171, 0.7);
+
+.main-body{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    height: 100%;
+    background-size: cover;
+    background-image: linear-gradient( 115deg, $primary-color, $secundary-color), url(../../assets/img/background.jpg);
+}

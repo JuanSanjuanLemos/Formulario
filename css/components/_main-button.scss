@@ -1,0 +1,17 @@
+$tertiary-color:#d80c0c;
+$text-color: #fff;
+
+.main-button{
+    height: 5rem;
+    width: 100%;
+    font-size: 2rem;
+    color: $text-color;
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: $tertiary-color;
+    &:hover{
+        transform: scale(1.02);
+        transition: 100ms linear;
+        cursor: pointer;
+    }
+}

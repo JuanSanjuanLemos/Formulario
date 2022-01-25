@@ -1,0 +1,6 @@
+.main-text{
+    @include text-format();
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+}

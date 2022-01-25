@@ -1,0 +1,15 @@
+.main-input{
+    @include text-format();
+    height: 4rem;
+    margin-bottom: 2.5rem;
+    border-radius: 5px;
+    border-color: transparent;
+    font-size: 1.6rem;
+    &::placeholder{
+        font-size: 1.5rem;
+    }
+    &.-comments{
+        height: 10rem;
+        max-width: 100%;
+    }
+}

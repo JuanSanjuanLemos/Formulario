@@ -1,7 +1,6 @@
 .main-title{
+    @include text-format();
     margin-top: 4rem;
     font-size: 4rem;
-    font-weight: 400;
-    line-height: 1.4;
     color: #fff;
 }
